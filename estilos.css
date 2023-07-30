@@ -1,0 +1,123 @@
+* {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+body {
+  background-color: rgb(255, 243, 243);
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(106, 0, 206);
+  text-transform: uppercase;
+}
+
+.foto_perfil {
+  display: flex;
+  justify-content: center;
+}
+
+.foto_perfil img {
+  width: 10rem;
+}
+
+.descripcion {
+  text-align: center;
+  padding: 25px;
+  color: rgb(30, 24, 24);
+}
+
+.linea_divisora {
+  color: rgb(106, 0, 206);
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(106, 0, 206);
+}
+
+section#experiencia {
+  background-color: rgb(255, 218, 218);
+}
+
+section#experiencia div table {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section#educacion {
+  background-color: rgb(255, 218, 218);
+}
+
+section#contacto {
+  background-color: rgb(255, 218, 218);
+}
+
+.estilos_secciones {
+  color: rgb(30, 24, 24);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+#contacto {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 80%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(106, 0, 206);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff82ae;
+}
